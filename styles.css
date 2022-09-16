@@ -1,19 +1,82 @@
-
-
-html{
+html {
     background-color: white;
 }
 
-header{
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 80px;
+    gap: 30px;
+
+    width: 1440px;
+    height: 80px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    background-color: #072038;
+
+}
+
+.menu {
+    /* Frame 182 */
+
+    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    
-    position: absolute;
-    width: 1440px;
-    height: 80px;
-    left: 0px;
-    top: 40px;
+    gap: 48px;
+
+    width: 606px;
+    height: 64px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#btnMenu {
+    margin: auto;
+    width: 63px;
+    height: 24px;
+    padding: 1px;
+    border: none;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
     background-color: #072038;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.menu_droite {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 167px;
+    height: 48px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }

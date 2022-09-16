@@ -1,14 +1,56 @@
 <html>
-    <head>
-        <title>HomePage</title>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <link rel="stylesheet" href="styles.css">
-    </head>
+
+<head>
+    <title>HomePage</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</head>
 
 
-    <body>
-        <header>
+<body>
+    <header>
+        <div class="menu">
             <img src="./assets/img/logo_dfakto.png" alt="logo_dfakto">
-        </header>
-    </body>
+
+            <!-- Les boutons du menu -->
+
+            <select name="btnMenu" id="btnMenu">
+                <label>Products</label>
+                <option>Products</option>
+                <option>Products2</option>
+            </select>
+
+            <select name="btnMenu" id="btnMenu">
+                <label>Ressources</label>
+                <option>Ressources</option>
+                <option>Ressources2</option>
+            </select>
+
+            <select name="btnMenu" id="btnMenu">
+                <label>Company</label>
+                <option>Company</option>
+                <option>Company2</option>
+            </select>
+
+            <div class="menu_droite">
+                <button>Free demo</button>
+
+                <select name="langue" id="langue">
+                    <option value="FR">FR</option>
+                    <option value="EN">EN</option>
+                </select>
+            </div>
+
+
+
+    </header>
+</body>
+
 </html>
